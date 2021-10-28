@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrate</title>
+    <!--BOOTSTRAP-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!--CSS-->
+    <!-- <link rel="stylesheet" href="../css/estilos.css"> -->
+    <link rel="stylesheet" href="../css/prueba.css">
+    <!--GOOGLE FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- KEYWORDS -->
+    <meta name="keywords" content="formulario, registrate, mensaje">
+    <!-- DESCRIPTION -->
+    <meta name="description" content="ingresar, dudas, criticas">
+</head>
+<body>
+    <header class="titulo"> 
+            
+            
+        <h1 class="titulo__h1">
+            MJA Equipamientos
+        </h1>       
+        <p>
+            Somos un emprendimiento sobre indumentaria deportiva
+        </p>
+        <!--MENU RESPONSIVE-->
+        
+        <nav class="navbar navbar-expand-lg navbar-light bg-light menuBts">
+            <div class="container-fluid">
+                <a class="navbar-brand fondo color" href="../index.html">Inicio</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active fondo color" aria-current="page" href="registrate.html">Registrate</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fondo color" href="info.html">Info</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fondo color" href="tabladetalles.html">Tabla de talles</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle fondo color" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Categorias
+                    </a>
+                        <ul class="dropdown-menu submenu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item fondo submenu__item" href="categorias/camisetas.html">Camisetas</a></li>
+                            <li><a class="dropdown-item fondo submenu__item" href="categorias/camperas.html">Camperas</a></li>
+                            <li><a class="dropdown-item fondo submenu__item" href="categorias/pantalones.html">Pantalones</a></li>
+                            <li><a class="dropdown-item fondo submenu__item" href="categorias/shorts.html">Shorts</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="colorFondo">
+        <h1>
+            &nbsp;
+        </h1>
+    </section>
+
+    <!--FORMULARIO PARA REGISTRARSE-->
+<section>
+    <form action="file:///C:/Users/Usuario/Desktop/CODERHOUSE/proyecto/index.html?Nombre=&amp;Apellido=&amp;Correo=&amp;mensaje=Criticas+y%2Fo+sugerencias%0D%0A++++++++++++++++%0D%0A++++++++++++++++%3C%2Fdiv%3E%0D%0A++++++++++++++++%0D%0A++++++++++++++++&amp;Localidad=mvdeo">
+        
+        <div class="ingresa">
+            <label for="nombre">Ingrese su nombre</label>
+            <input class="ingresa__nombre" type="text" placeholder="Nombre" name="Nombre">
+        </div>
+        
+        <div class="ingresa">
+            <label for="apellido">Ingrese su apellido</label>
+            <input class="ingresa__apellido" type="text" placeholder="Apellido" name="Apellido">
+        </div>
+        
+        <div class="ingresa">
+            <label for="correo">Ingrese su correo electronico</label>
+            <input class="ingresa__correo" type="email" placeholder="Correo" name="Correo">
+        </div>
+        
+        <div class="mensaje">
+            <label for="mensaje"> Dejenos alguna critica y/o sugerencia</label>
+            <textarea class="mensaje__escribir" name="mensaje" id="criticas" cols="30" rows="3" placeholder="Criticas y/o sugerencias"></textarea>
+        <div>    
+            <button class="btn btn-outline-primary botonEnviar" type="submit">Enviar</button>
+            <button class="btn btn-outline-secondary botonBorrar" type="reset">Borrar todo</button>
+        </div>
+            
+        <div>
+            <label for="select">De donde eres?</label>
+            <select name="localidad" id="Localidad" class="dropDown">
+                <option value="mvdeo">Montevideo</option>
+                <option value="int">Interior</option>
+            </select>
+        </div>    
+        
+    </form>
+</section>
+
+<section class="colorFondo">
+    <h1>
+        &nbsp;
+    </h1>
+</section>
+
+    <!--FOOTER-->
+    <footer>
+        <p class="contactoFooter"> Contactos </p>
+        <div class="contenedorRedes">
+            -<a href="https://www.instagram.com/mjaequipamientos/">
+                <i class="fab fa-instagram instagram"></i>
+            </a>
+            <a href="https://www.facebook.com/mja.equipamientos">
+                <i class="fab fa-facebook-f facebook"></i>
+            </a>
+            <a href="https://wa.me/093924030" class="whatsapp">
+                <i class="fab fa-whatsapp whatsapp"></i>
+            </a>
+            <a href="" class="gmail">
+                <i class="far fa-envelope gmail"></i>
+            </a>-
+            <p class="derechosR">Todos los derechos Reservados-MJA Equipamientos</p>
+        </div>
+    </footer>
+
+<!--JS-->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+<!-- FONTAWEZOME -->
+<script src="https://kit.fontawesome.com/003efb5f32.js" crossorigin="anonymous"></script>
+</body>
+</html>

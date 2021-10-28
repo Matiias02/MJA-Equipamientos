@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Marvel:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+/*ENCABEZADO*/
+
+header{
+    background-color:#023047; 
+    height:235px;
+    position: sticky;
+    top: 0px;
+    background-image: linear-gradient(#023047 to white);
+}
+
+header h1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+}
+header p{
+    color:#FB8500;
+    font-family:Arial, Helvetica, sans-serif ;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* MENU */
+
+.fondo:hover{
+    background-color: rgb(44, 44,44);
+    transition: 1s;
+}
+
+.dropdown-item:hover{
+    transition: 1s;
+    background-color: rgb(44, 44,44) !important;
+    color: black;
+}
+
+.container-fluid{
+    padding-left: 18px;
+}
+
+.logo{
+    display: flex;
+    justify-content:left;
+}
+
+.logoMJA{
+    width: 50px;
+
+}
+
+.menu{
+    display:grid;
+    grid-area:menu;
+}
+
+
+/*SECCIÓN PRINCIPAL*/
+
+
+section h2{
+    color: #023047;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    background-color: white;
+    padding: 30px;
+}
+
+/*SECCION PRINCIPAL DE TODAS LAS PAGINAS*/
+
+.padreImg{
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color:white;
+    display: flex;
+    flex-flow: row wrap ;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.hijos{
+    width: 300px;
+    height: 470px;
+}
+
+.hijosText1{
+    color: #023047;
+    font-family:  'Open Sans' , sans-serif;
+
+}
+.hijosText2{
+    color: #023047;
+    font-family:  'Open Sans' , sans-serif;
+}
+.hijosText3{
+    color: #023047;
+    font-family:  'Open Sans' , sans-serif;
+}
+.hijosText4{
+    color: #023047;
+    font-family:  'Open Sans' , sans-serif;
+}
+.hijosText5{
+    color: #023047;
+    font-family:  'Open Sans' , sans-serif;
+}
+
+.img{
+    display: flex;
+    justify-content: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+/*TABLA DE TALLES*/
+
+
+section{
+    background-color: white;
+}
+.tablaTalles{
+    background-color:#8ecae6;
+    font-family: 'Marvel', sans-serif;
+    font-size: 26px;
+    width: 700px;
+    height: 300px;
+    border:1px;
+    margin: 150px auto;
+    text-align: center;
+}
+
+.tituloTabla{
+    margin-top: 30px;
+    text-align: center;
+    color:#219EBC;
+    font-family: 'Marvel', sans-serif;
+    font-size:26px;
+}
+
+.encabezado{
+    background-color:#faedcd;
+    color:#219EBC;
+    border: 1px;
+}
+
+/*FORMULARIO*/
+
+
+
+/*FOOTER*/
+
+footer{
+    background-color: #8ECAE6;
+    margin-bottom:0px;
+    padding:7px;
+} 
+
+.contactoFooter{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 26px;
+}
+.contenedorRedes{
+    text-align: center;
+    text-decoration: none;
+}
+.instagram{
+    color:#023047;
+    text-decoration: none;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.whatsapp{
+    color: #023047;
+    text-decoration: none;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.facebook{
+    color: #023047;
+    text-decoration: none;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.gmail{
+    color: #023047;
+    text-decoration: none;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.instagram:hover{
+    text-decoration: none;
+    color: rgb(44, 44,44);
+
+}
+.whatsapp:hover{
+    text-decoration: none;
+    color: rgb(44, 44,44);
+}
+.facebook:hover{
+    text-decoration: none;
+    color: rgb(44, 44,44);
+}
+.gmail:hover{
+    text-decoration: none;
+    color: rgb(44, 44,44);
+}
+.derechosR{
+    text-align: center;
+    padding-top: 20px;
+}
+/*APARTADO INFO*/
+
+section h3{
+    color: #023047;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    padding: 30px;
+}
+
+.padreInfo{
+    height: 1000px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    align-items: stretch;
+}
+
+.hijosInfo{
+    margin: 30px;
+    font-family:'Open Sans', sans-serif ;
+    font-size: 20px;
+    padding: 30px;
+}
+
+@media screen and (min-width:768px) {
+    .padreImg{
+        padding-left: 30px;
+        padding-right: 30px;
+        background-color:white;
+        display: flex;
+        flex-flow: row wrap ;
+        justify-content: space-around;
+        align-content: center;
+    }
+    .nav{
+            display:grid;
+            grid-template-areas:" logoMJA menu" ;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: initial ;
+        
+        } 
+    .fondoLista{
+            text-decoration: none;
+            font-size: 17px;
+            color: white;
+            padding: 10px;
+        
+        }
+    .logoMJA{
+        display: grid;
+        grid-area:logoMJA;
+        width: 260px;
+        height: 130px;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .padreImg{
+        padding-left: 30px;
+        padding-right: 30px;
+        background-color:white;
+        display: flex;
+        flex-flow: row wrap ;
+        justify-content: space-around;
+        align-content: center;
+    }
+    .nav{
+            display:grid;
+            grid-template-areas:" logoMJA menu" ;
+            grid-template-columns: 1fr 1fr 1fr ;
+            grid-template-rows: initial ;
+        
+        } 
+    .fondoLista{
+            text-decoration: none;
+            font-size: 17px;
+            color: white;
+            padding: 10px;
+        
+        }
+    .logoMJA{
+        display: grid;
+        grid-area:logoMJA;
+        width: 260px;
+        height: 130px;
+    }
+}
+

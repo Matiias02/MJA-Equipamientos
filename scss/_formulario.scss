@@ -1,0 +1,91 @@
+.mensaje__escribir{
+    width: 250px;
+    height: 100px;
+    transition: 2s;
+    border-radius: 10px;
+    outline: none;
+    border: 0px;
+    padding-left: 7px;
+    background-color: lightgray;
+}
+.mensaje__escribir:hover{
+    width: 325px;
+}
+.ingresa__nombre{
+    width: 250px;
+    transition: width 2s;
+    border-radius: 10px;
+    outline: none;
+    border: 0px;
+    padding-left: 7px;
+    background-color: lightgray;
+}
+.ingresa__nombre:hover{
+    width: 300px;
+}
+.ingresa__apellido{
+    width: 250px;
+    transition: width 2s;
+    border-radius: 10px;
+    outline: none;
+    border: 0px;
+    padding-left: 7px;
+    background-color: lightgray;
+}
+.ingresa__apellido:hover{
+    width: 300px;
+}
+.ingresa__correo{
+    width: 250px;
+    transition: width 2s;
+    border-radius: 10px;
+    outline: none;
+    border: 0px;
+    padding-left: 7px;
+    background-color: lightgray;
+}
+.ingresa__correo:hover{
+    width: 300px;
+}
+
+.botonEnviar{
+    padding-left: 7px;
+    height: 28px;
+}
+
+.botonBorrar{
+    padding-left: 7px;
+    height: 28px;
+}
+
+.dropDown{
+    border: 0px;
+    border-radius: 10px;
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #6c757d;
+    background-color: lightgray;
+}
+.dropDown:hover{
+    transform: scale(1.05);
+}
+
+
+
+form{
+    width: 400px;
+    margin: 0 auto;
+    background-color: #012A4A !important;
+    border-radius: 15px;
+    border: 70px;
+    padding: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    p{
+        font-family: Arial, Helvetica, sans-serif;
+        color: #adb5bd;
+    }
+}
+section{
+    background-color: #A9D6E5;
+    // height: 790px;
+}

@@ -1,0 +1,409 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Marvel:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+/*ENCABEZADO*/
+header {
+  background-color: #013A63;
+  height: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  top: 0px; }
+  header p {
+    color: #FB8500;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    justify-content: space-around; }
+
+.titulo__h1 {
+  color: white !important;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: space-evenly; }
+
+/* MENU */
+nav {
+  padding: 20px; }
+
+.nav-item {
+  color: white !important; }
+
+.color {
+  color: #89C2D9 !important; }
+
+.fondo:hover {
+  background-color: #2c2c2c;
+  color: white !important;
+  transition: 1s;
+  border-radius: 5px;
+  border: 0; }
+
+.desplegable:hover > .dropdown-menu {
+  display: block !important; }
+
+.submenu {
+  background-color: #013A63; }
+
+.submenu__item {
+  color: #89C2D9; }
+
+.submenu__item:hover {
+  transition: 1s;
+  background-color: #2c2c2c !important;
+  color: white;
+  border-radius: 5px; }
+
+.container-fluid {
+  padding-left: 18px; }
+
+.menuBts {
+  background-color: #013A63 !important; }
+
+.menu {
+  display: grid;
+  grid-area: menu; }
+
+/*FOOTER*/
+footer {
+  background-color: #89C2D9;
+  margin-bottom: 0px;
+  padding: 7px; }
+
+.contactoFooter {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 26px; }
+
+.contenedorRedes {
+  text-align: center;
+  text-decoration: none; }
+
+.instagram {
+  color: #012A4A;
+  text-decoration: none;
+  padding-left: 16px;
+  padding-right: 16px; }
+
+.whatsapp {
+  color: #012A4A;
+  text-decoration: none;
+  padding-left: 16px;
+  padding-right: 16px; }
+
+.facebook {
+  color: #012A4A;
+  text-decoration: none;
+  padding-left: 16px;
+  padding-right: 16px; }
+
+.gmail {
+  color: #012A4A;
+  text-decoration: none;
+  padding-left: 16px;
+  padding-right: 16px; }
+
+.instagram:hover {
+  text-decoration: none;
+  color: #2c2c2c; }
+
+.whatsapp:hover {
+  text-decoration: none;
+  color: #2c2c2c; }
+
+.facebook:hover {
+  text-decoration: none;
+  color: #2c2c2c; }
+
+.gmail:hover {
+  text-decoration: none;
+  color: #2c2c2c; }
+
+.derechosR {
+  text-align: center;
+  padding-top: 20px; }
+
+/*APARTADO INFO*/
+.informacion__titulo {
+  color: #013A63;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 25px;
+  padding: 30px; }
+
+.envios__titulo {
+  color: #013A63;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 25px;
+  padding: 30px; }
+
+.contacto__titulo {
+  color: #013A63;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 25px;
+  padding: 30px; }
+
+.padreInfo {
+  height: 1000px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-evenly;
+  align-items: stretch; }
+
+.informacion__parrafo {
+  margin: 30px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  padding: 30px; }
+
+.envios__parrafo {
+  margin: 30px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  padding: 30px; }
+
+.contacto__parrafo {
+  margin: 30px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  padding: 30px; }
+
+.sectionInfo {
+  height: 1100px; }
+
+/*TABLA DE TALLES*/
+section {
+  background-color: white; }
+
+.tablaTalles {
+  background-color: #8ecae6;
+  font-family: 'Marvel', sans-serif;
+  border-radius: 10px;
+  font-size: 26px;
+  width: 700px;
+  height: 300px;
+  border: 1px;
+  margin: 0 auto;
+  text-align: center; }
+
+.tituloTabla {
+  margin: 0;
+  text-align: center;
+  color: #013A63;
+  font-family: 'Marvel', sans-serif;
+  font-size: 26px; }
+
+.encabezado {
+  background-color: #faedcd;
+  color: #219EBC;
+  border: 1px; }
+
+.mensaje__escribir {
+  width: 250px;
+  height: 100px;
+  transition: 2s;
+  border-radius: 10px;
+  outline: none;
+  border: 0px;
+  padding-left: 7px;
+  background-color: lightgray; }
+
+.mensaje__escribir:hover {
+  width: 325px; }
+
+.ingresa__nombre {
+  width: 250px;
+  transition: width 2s;
+  border-radius: 10px;
+  outline: none;
+  border: 0px;
+  padding-left: 7px;
+  background-color: lightgray; }
+
+.ingresa__nombre:hover {
+  width: 300px; }
+
+.ingresa__apellido {
+  width: 250px;
+  transition: width 2s;
+  border-radius: 10px;
+  outline: none;
+  border: 0px;
+  padding-left: 7px;
+  background-color: lightgray; }
+
+.ingresa__apellido:hover {
+  width: 300px; }
+
+.ingresa__correo {
+  width: 250px;
+  transition: width 2s;
+  border-radius: 10px;
+  outline: none;
+  border: 0px;
+  padding-left: 7px;
+  background-color: lightgray; }
+
+.ingresa__correo:hover {
+  width: 300px; }
+
+.botonEnviar {
+  padding-left: 7px;
+  height: 28px; }
+
+.botonBorrar {
+  padding-left: 7px;
+  height: 28px; }
+
+.dropDown {
+  border: 0px;
+  border-radius: 10px;
+  outline: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #6c757d;
+  background-color: lightgray; }
+
+.dropDown:hover {
+  transform: scale(1.05); }
+
+form {
+  width: 400px;
+  margin: 0 auto;
+  background-color: #012A4A !important;
+  border-radius: 15px;
+  border: 70px;
+  padding: 12px;
+  font-family: Arial, Helvetica, sans-serif; }
+  form p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #adb5bd; }
+
+section {
+  background-color: #A9D6E5; }
+
+@media screen and (min-width: 768px) {
+  .nav {
+    display: grid;
+    grid-template-areas: " logoMJA menu";
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: initial; }
+  form {
+    width: 400px;
+    margin: 0 auto;
+    background-color: #e9c46a;
+    border-radius: 15px; }
+  .section {
+    background-color: #A9D6E5;
+    height: 3300px; }
+  header {
+    background-color: #013A63;
+    height: 200px;
+    position: sticky;
+    top: 0;
+    top: 0px;
+    padding-left: 15px; }
+    header p {
+      color: #FB8500;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 16px;
+      display: flex;
+      justify-content: space-around;
+      padding-left: 35px; } }
+
+@media screen and (max-width: 320px) {
+  .nav {
+    display: grid;
+    grid-template-areas: " logoMJA menu";
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: initial; }
+  form {
+    width: 300px;
+    margin: 0 auto;
+    background-color: #e9c46a;
+    border-radius: 15px; }
+  .section {
+    background-color: #A9D6E5;
+    height: 3500px; }
+  header {
+    background-color: #013A63;
+    height: 200px;
+    position: sticky;
+    z-index: 1;
+    top: 0; } }
+
+@media screen and (max-width: 425px) {
+  .nav {
+    display: grid;
+    grid-template-areas: " logoMJA menu";
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: initial; }
+  form {
+    width: 300px;
+    margin: 0 auto;
+    background-color: #e9c46a;
+    border-radius: 15px; }
+  .padreInfo {
+    height: 1000px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: stretch; }
+  .sectionInfo {
+    height: 1500px; }
+  .section {
+    background-color: #A9D6E5;
+    height: 3500px; }
+  header {
+    background-color: #013A63;
+    height: 200px;
+    position: sticky;
+    z-index: 1;
+    top: 0; }
+    header p {
+      color: #FB8500;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 16px;
+      display: flex;
+      justify-content: space-around;
+      padding-left: 35px; } }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+a {
+  text-decoration: none; }
+
+/*SECCIÓN PRINCIPAL*/
+h2 {
+  color: #013A63;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 30px;
+  padding: 30px; }
+
+/*SECCION PRINCIPAL DE TODAS LAS PAGINAS*/
+.colorFondo {
+  background-color: #A9D6E5;
+  height: 100px; }
+
+.cards {
+  border: 0;
+  z-index: 2; }
+
+.col {
+  width: 300px;
+  height: 650px;
+  margin: 0 auto; }
+
+.card {
+  width: 300px;
+  height: 650px;
+  background-color: #A9D6E5;
+  border: none; }
+
+.imagenes {
+  width: 250px;
+  height: 570px;
+  margin-left: 25px; }
+
+h5 {
+  color: #013A63; }

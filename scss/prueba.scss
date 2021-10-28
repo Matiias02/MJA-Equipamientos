@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Marvel:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import "header";
+@import "footer";
+@import "info";
+@import "tabladetalles";
+@import "formulario";
+@import "mediasq";
+@import "variables";
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+
+
+
+/*SECCIÓN PRINCIPAL*/
+
+
+h2{
+    color: #013A63;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    padding: 30px;
+}
+
+/*SECCION PRINCIPAL DE TODAS LAS PAGINAS*/
+
+.colorFondo{
+    background-color:#A9D6E5 ;
+    height: 100px;
+}
+
+.cards{
+    border: 0;
+    z-index: 2;
+}
+.col{
+    width: 300px;
+    height: 650px;
+    margin: 0 auto;
+}
+.card{
+    width: 300px;
+    height: 650px;
+    background-color: #A9D6E5;
+    border: none;
+}
+.imagenes{
+    width: $ancho/2 ;
+    height: 570px;
+    margin-left: 25px;
+}
+
+h5{
+    color: #013A63;
+}

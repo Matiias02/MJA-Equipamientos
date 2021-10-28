@@ -1,0 +1,108 @@
+@media screen and (min-width:768px) {
+    .nav{
+            display:grid;
+            grid-template-areas:" logoMJA menu" ;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: initial ;
+        
+        } 
+    form{
+        width: 400px;
+        margin: 0 auto;
+        background-color: #e9c46a;
+        border-radius: 15px;
+    }
+    .section{
+    background-color: #A9D6E5;
+    height: 3300px;
+    }
+    header{
+        background-color:#013A63; 
+        height:200px;
+        position: sticky;
+        top: 0;
+        top: 0px;
+        padding-left: 15px;
+        p{
+            color:#FB8500;
+            font-family:'Open Sans', sans-serif ;
+            font-size: 16px;
+            display: flex;
+            justify-content: space-around;
+            padding-left: 35px;
+        }
+    }
+    
+}
+
+@media screen and (max-width:320px) {
+    .nav{
+            display:grid;
+            grid-template-areas:" logoMJA menu" ;
+            grid-template-columns: 1fr 1fr 1fr ;
+            grid-template-rows: initial ;
+        } 
+    form{
+        width: 300px;
+        margin: 0 auto;
+        background-color: #e9c46a;
+        border-radius: 15px;
+    }
+    
+    .section{
+    background-color: #A9D6E5;
+    height: 3500px;
+    }
+    header{
+        background-color:#013A63; 
+        height:200px;
+        position: sticky;
+        z-index: 1;
+        top: 0;
+        
+    }
+}
+
+@media screen and (max-width: 425px) { 
+    .nav{
+            display:grid;
+            grid-template-areas:" logoMJA menu" ;
+            grid-template-columns: 1fr 1fr 1fr ;
+            grid-template-rows: initial ;
+        } 
+    form{
+        width: 300px;
+        margin: 0 auto;
+        background-color: #e9c46a;
+        border-radius: 15px;
+    }
+    .padreInfo{
+        height: 1000px;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: space-around;
+        align-items: stretch;
+    }
+    .sectionInfo{
+        height: 1500px;
+    }
+    .section{
+    background-color: #A9D6E5;
+    height: 3500px;
+    }
+    header{
+        background-color:#013A63; 
+        height:200px;
+        position: sticky;
+        z-index: 1;
+        top: 0;
+        p{
+            color:#FB8500;
+            font-family:'Open Sans', sans-serif ;
+            font-size: 16px;
+            display: flex;
+            justify-content: space-around;
+            padding-left: 35px;
+        }
+    }
+}

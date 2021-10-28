@@ -1,0 +1,50 @@
+/*APARTADO INFO*/
+
+.informacion__titulo{
+    color: #013A63;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    padding: 30px;
+}
+.envios__titulo{
+    color: #013A63;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    padding: 30px;
+}
+.contacto__titulo{
+    color: #013A63;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    padding: 30px;
+}
+.padreInfo{
+    height: 1000px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    align-items: stretch;
+}
+
+.informacion__parrafo{
+    margin: 30px;                                                                      
+    font-family:'Open Sans', sans-serif ;
+    font-size: 20px;
+    padding: 30px;
+}
+.envios__parrafo{
+    margin: 30px;                                                                      
+    font-family:'Open Sans', sans-serif ;
+    font-size: 20px;
+    padding: 30px;
+}
+.contacto__parrafo{
+    margin: 30px;                                                                      
+    font-family:'Open Sans', sans-serif ;
+    font-size: 20px;
+    padding: 30px;
+}
+
+.sectionInfo{
+    height: 1100px;
+}
