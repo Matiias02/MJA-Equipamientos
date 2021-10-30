@@ -4,11 +4,12 @@
 /*ENCABEZADO*/
 header {
   background-color: #013A63;
-  height: 200px;
+  height: 100px !important;
   position: fixed;
   z-index: 1;
   top: 0;
-  top: 0px; }
+  top: 0px;
+  padding: 0; }
   header p {
     color: #FB8500;
     font-family: 'Open Sans', sans-serif;
@@ -22,10 +23,12 @@ header {
   justify-content: space-evenly; }
 
 /* MENU */
-nav {
-  padding: 20px; }
+.menuBts {
+  background-color: #013A63 !important;
+  border-bottom: 100px;
+  padding-right: 500px; }
 
-.nav-item {
+.item {
   color: white !important; }
 
 .color {
@@ -53,11 +56,8 @@ nav {
   color: white;
   border-radius: 5px; }
 
-.container-fluid {
+.container {
   padding-left: 18px; }
-
-.menuBts {
-  background-color: #013A63 !important; }
 
 .menu {
   display: grid;
@@ -65,11 +65,12 @@ nav {
 
 /*FOOTER*/
 footer {
-  background-color: #89C2D9;
+  background-color: #013A63;
   margin-bottom: 0px;
   padding: 7px; }
 
 .contactoFooter {
+  color: white;
   text-align: center;
   font-family: 'Open Sans', sans-serif;
   font-size: 26px; }
@@ -79,48 +80,50 @@ footer {
   text-decoration: none; }
 
 .instagram {
-  color: #012A4A;
+  color: #89C2D9;
   text-decoration: none;
   padding-left: 16px;
   padding-right: 16px; }
 
 .whatsapp {
-  color: #012A4A;
+  color: #89C2D9;
   text-decoration: none;
   padding-left: 16px;
   padding-right: 16px; }
 
 .facebook {
-  color: #012A4A;
+  color: #89C2D9;
   text-decoration: none;
   padding-left: 16px;
   padding-right: 16px; }
 
 .gmail {
-  color: #012A4A;
+  color: #89C2D9;
   text-decoration: none;
   padding-left: 16px;
   padding-right: 16px; }
 
 .instagram:hover {
   text-decoration: none;
-  color: #2c2c2c; }
+  color: white; }
 
 .whatsapp:hover {
   text-decoration: none;
-  color: #2c2c2c; }
+  color: white; }
 
 .facebook:hover {
   text-decoration: none;
-  color: #2c2c2c; }
+  color: white; }
 
 .gmail:hover {
   text-decoration: none;
-  color: #2c2c2c; }
+  color: white; }
 
 .derechosR {
+  color: white;
   text-align: center;
-  padding-top: 20px; }
+  padding-top: 20px;
+  font-family: 'Open Sans', sans-serif; }
 
 /*APARTADO INFO*/
 .informacion__titulo {
@@ -169,6 +172,30 @@ footer {
 .sectionInfo {
   height: 1100px; }
 
+.instagram2 {
+  color: #2c2c2c; }
+
+.instagram2:hover {
+  color: #468FAF; }
+
+.facebook2 {
+  color: #2c2c2c; }
+
+.facebook2:hover {
+  color: #468FAF; }
+
+.whatsapp2 {
+  color: #2c2c2c; }
+
+.whatsapp2:hover {
+  color: #468FAF; }
+
+.gmail2 {
+  color: #2c2c2c; }
+
+.gmail2:hover {
+  color: #468FAF; }
+
 /*TABLA DE TALLES*/
 section {
   background-color: white; }
@@ -195,6 +222,13 @@ section {
   background-color: #faedcd;
   color: #219EBC;
   border: 1px; }
+
+.registrate {
+  color: #013A63;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 25px;
+  display: flex;
+  justify-content: center; }
 
 .mensaje__escribir {
   width: 250px;
@@ -264,6 +298,18 @@ section {
 .dropDown:hover {
   transform: scale(1.05); }
 
+.nombre {
+  color: lightgray; }
+
+.apellido {
+  color: lightgray; }
+
+.correo {
+  color: lightgray; }
+
+.mensaje {
+  color: lightgray; }
+
 form {
   width: 400px;
   margin: 0 auto;
@@ -277,7 +323,7 @@ form {
     color: #adb5bd; }
 
 section {
-  background-color: #A9D6E5; }
+  background-color: whitesmoke; }
 
 @media screen and (min-width: 768px) {
   .nav {
@@ -341,16 +387,16 @@ section {
     background-color: #e9c46a;
     border-radius: 15px; }
   .padreInfo {
+    padding-top: 300px;
     height: 1000px;
     display: flex;
     flex-flow: column nowrap;
     justify-content: space-around;
     align-items: stretch; }
   .sectionInfo {
-    height: 1500px; }
+    height: 1400px; }
   .section {
-    background-color: #A9D6E5;
-    height: 3500px; }
+    background-color: #A9D6E5; }
   header {
     background-color: #013A63;
     height: 200px;
@@ -382,7 +428,7 @@ h2 {
 
 /*SECCION PRINCIPAL DE TODAS LAS PAGINAS*/
 .colorFondo {
-  background-color: #A9D6E5;
+  background-color: whitesmoke;
   height: 100px; }
 
 .cards {
@@ -397,7 +443,7 @@ h2 {
 .card {
   width: 300px;
   height: 650px;
-  background-color: #A9D6E5;
+  background-color: whitesmoke;
   border: none; }
 
 .imagenes {

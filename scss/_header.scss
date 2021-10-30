@@ -2,11 +2,12 @@
 
 header{
     background-color:#013A63; 
-    height:200px;
+    height:100px !important;
     position: fixed;
     z-index: 1;
     top: 0;
-    top: 0px; 
+    top: 0px;
+    padding: 0;
         p{
             color:#FB8500;
             font-family:'Open Sans', sans-serif ;
@@ -24,10 +25,17 @@ header{
 }
 
 /* MENU */
-nav{
-    padding: 20px;
+// nav{
+//     // padding: 20px;
+//     padding-right: 500px;
+//     top: 0;
+// }
+.menuBts{
+    background-color: #013A63 !important;
+    border-bottom: 100px;
+    padding-right: 500px;
 }
-.nav-item{
+.item{
     color: white !important;
 }
 .color{
@@ -55,13 +63,11 @@ nav{
     color: white;
     border-radius: 5px;
 }
-.container-fluid{
+.container{
     padding-left: 18px;
 }
 
-.menuBts{
-    background-color: #013A63 !important;
-}
+
 
 .menu{
     display:grid;

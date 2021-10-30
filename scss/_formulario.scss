@@ -1,3 +1,10 @@
+.registrate{
+    color: #013A63;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+}
 .mensaje__escribir{
     width: 250px;
     height: 100px;
@@ -70,7 +77,18 @@
     transform: scale(1.05);
 }
 
-
+.nombre{
+    color: lightgray;
+}
+.apellido{
+    color: lightgray;
+}
+.correo{
+    color: lightgray;
+}
+.mensaje{
+    color: lightgray;
+}
 
 form{
     width: 400px;
@@ -86,6 +104,6 @@ form{
     }
 }
 section{
-    background-color: #A9D6E5;
+    background-color: whitesmoke;
     // height: 790px;
 }
