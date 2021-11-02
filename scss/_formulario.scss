@@ -89,7 +89,9 @@
 .mensaje{
     color: lightgray;
 }
-
+.sectionForm{
+    height: 700px;
+}
 form{
     width: 400px;
     margin: 0 auto;
@@ -102,8 +104,4 @@ form{
         font-family: Arial, Helvetica, sans-serif;
         color: #adb5bd;
     }
-}
-section{
-    background-color: whitesmoke;
-    // height: 790px;
 }

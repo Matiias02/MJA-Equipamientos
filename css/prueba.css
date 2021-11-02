@@ -4,10 +4,9 @@
 /*ENCABEZADO*/
 header {
   background-color: #013A63;
-  height: 100px !important;
+  height: 152px !important;
   position: fixed;
   z-index: 1;
-  top: 0;
   top: 0px;
   padding: 0; }
   header p {
@@ -25,8 +24,7 @@ header {
 /* MENU */
 .menuBts {
   background-color: #013A63 !important;
-  border-bottom: 100px;
-  padding-right: 500px; }
+  border-bottom: 100px; }
 
 .item {
   color: white !important; }
@@ -310,6 +308,9 @@ section {
 .mensaje {
   color: lightgray; }
 
+.sectionForm {
+  height: 700px; }
+
 form {
   width: 400px;
   margin: 0 auto;
@@ -321,9 +322,6 @@ form {
   form p {
     font-family: Arial, Helvetica, sans-serif;
     color: #adb5bd; }
-
-section {
-  background-color: whitesmoke; }
 
 @media screen and (min-width: 768px) {
   .nav {
@@ -343,7 +341,6 @@ section {
     background-color: #013A63;
     height: 200px;
     position: sticky;
-    top: 0;
     top: 0px;
     padding-left: 15px; }
     header p {
@@ -420,6 +417,10 @@ a {
   text-decoration: none; }
 
 /*SECCIÓN PRINCIPAL*/
+section {
+  background-color: whitesmoke;
+  padding-top: 60px; }
+
 h2 {
   color: #013A63;
   font-family: 'Open Sans', sans-serif;
