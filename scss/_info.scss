@@ -1,22 +1,30 @@
 /*APARTADO INFO*/
 
+.h2Info{
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: 40px;
+}
 .informacion__titulo{
     color: #013A63;
     font-family: 'Open Sans', sans-serif;
     font-size: 25px;
     padding: 30px;
+    text-align: center;
 }
 .envios__titulo{
     color: #013A63;
     font-family: 'Open Sans', sans-serif;
     font-size: 25px;
     padding: 30px;
+    text-align: center;
 }
 .contacto__titulo{
     color: #013A63;
     font-family: 'Open Sans', sans-serif;
     font-size: 25px;
     padding: 30px;
+    text-align: center;
 }
 .padreInfo{
     height: 1000px;
@@ -48,21 +56,23 @@
 .sectionInfo{
     height: 1100px;
 }
-
 .instagram2{
     color: rgb(44, 44,44);
+    align-items: center;
 }
 .instagram2:hover{
     color: #468FAF;
 }
 .facebook2{
     color: rgb(44, 44,44);
+    align-items: center;
 }
 .facebook2:hover{
     color: #468FAF;
 }
 .whatsapp2{
     color: rgb(44, 44,44);
+    align-items: center;
 }
 .whatsapp2:hover{
     color: #468FAF;
@@ -72,4 +82,8 @@
 }
 .gmail2:hover{
     color: #468FAF;
+}
+
+.contacto__parrafo{
+    padding-left: 350px;
 }

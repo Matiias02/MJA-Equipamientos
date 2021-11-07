@@ -8,7 +8,7 @@ header {
   position: fixed;
   z-index: 1;
   top: 0px;
-  padding: 0; }
+  padding-bottom: 0px; }
   header p {
     color: #FB8500;
     font-family: 'Open Sans', sans-serif;
@@ -124,23 +124,31 @@ footer {
   font-family: 'Open Sans', sans-serif; }
 
 /*APARTADO INFO*/
+.h2Info {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px; }
+
 .informacion__titulo {
   color: #013A63;
   font-family: 'Open Sans', sans-serif;
   font-size: 25px;
-  padding: 30px; }
+  padding: 30px;
+  text-align: center; }
 
 .envios__titulo {
   color: #013A63;
   font-family: 'Open Sans', sans-serif;
   font-size: 25px;
-  padding: 30px; }
+  padding: 30px;
+  text-align: center; }
 
 .contacto__titulo {
   color: #013A63;
   font-family: 'Open Sans', sans-serif;
   font-size: 25px;
-  padding: 30px; }
+  padding: 30px;
+  text-align: center; }
 
 .padreInfo {
   height: 1000px;
@@ -171,19 +179,22 @@ footer {
   height: 1100px; }
 
 .instagram2 {
-  color: #2c2c2c; }
+  color: #2c2c2c;
+  align-items: center; }
 
 .instagram2:hover {
   color: #468FAF; }
 
 .facebook2 {
-  color: #2c2c2c; }
+  color: #2c2c2c;
+  align-items: center; }
 
 .facebook2:hover {
   color: #468FAF; }
 
 .whatsapp2 {
-  color: #2c2c2c; }
+  color: #2c2c2c;
+  align-items: center; }
 
 .whatsapp2:hover {
   color: #468FAF; }
@@ -193,6 +204,9 @@ footer {
 
 .gmail2:hover {
   color: #468FAF; }
+
+.contacto__parrafo {
+  padding-left: 350px; }
 
 /*TABLA DE TALLES*/
 section {
@@ -224,7 +238,7 @@ section {
 .registrate {
   color: #013A63;
   font-family: 'Open Sans', sans-serif;
-  font-size: 25px;
+  font-size: 35px;
   display: flex;
   justify-content: center; }
 
@@ -337,9 +351,10 @@ form {
   .section {
     background-color: #A9D6E5;
     height: 3300px; }
+  .contacto__parrafo {
+    padding-left: 50px; }
   header {
-    background-color: #013A63;
-    height: 200px;
+    height: 152px;
     position: sticky;
     top: 0px;
     padding-left: 15px; }
@@ -366,8 +381,7 @@ form {
     background-color: #A9D6E5;
     height: 3500px; }
   header {
-    background-color: #013A63;
-    height: 200px;
+    height: 152px;
     position: sticky;
     z-index: 1;
     top: 0; } }
@@ -392,11 +406,12 @@ form {
     align-items: stretch; }
   .sectionInfo {
     height: 1400px; }
+  .contacto__parrafo {
+    padding-left: 20px; }
   .section {
     background-color: #A9D6E5; }
   header {
-    background-color: #013A63;
-    height: 200px;
+    height: 152px;
     position: sticky;
     z-index: 1;
     top: 0; }
@@ -424,8 +439,9 @@ section {
 h2 {
   color: #013A63;
   font-family: 'Open Sans', sans-serif;
-  font-size: 30px;
-  padding: 30px; }
+  font-size: 33px;
+  padding: 30px;
+  text-align: center; }
 
 /*SECCION PRINCIPAL DE TODAS LAS PAGINAS*/
 .colorFondo {
@@ -452,5 +468,21 @@ h2 {
   height: 570px;
   margin-left: 25px; }
 
-h5 {
-  color: #013A63; }
+h3 {
+  color: #013A63;
+  font-size: 1.25rem; }
+
+.pagos {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center; }
+
+.mediosDePago {
+  border-style: solid;
+  border-radius: 25px;
+  height: 225px;
+  padding: 0px; }
+
+.pagar {
+  text-align: center;
+  font-size: 25px; }
