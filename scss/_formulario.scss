@@ -58,11 +58,26 @@
 .botonEnviar{
     padding-left: 7px;
     height: 28px;
+    background: rgb(192, 190, 68);
+    color:rgb(37, 37, 37) ;
+    border-color: rgb(192, 190, 68);
 }
 
+.botonEnviar:hover{
+    background: rgb(2, 121, 51);
+    border-color: rgb(2, 121, 51);
+}
 .botonBorrar{
     padding-left: 7px;
     height: 28px;
+    background: rgb(0, 100, 158);
+    color:white;
+    border-color: rgb(0, 100, 158);
+}
+.botonBorrar:hover{
+    background: rgb(206, 111, 2);
+    color: white;
+    border-color: rgb(206, 111, 2);
 }
 
 .dropDown{
