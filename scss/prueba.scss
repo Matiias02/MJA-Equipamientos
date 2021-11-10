@@ -45,45 +45,46 @@ h2{
     border: 0;
     z-index: 2;
 }
-.col{
-    width: 300px;
-    height: 650px;
-    margin: 0 auto;
-}
+// .col{
+//     width: 300px;
+//     height: 650px;
+//     margin: 0 auto;
+// }
 .card{
-    width: 300px;
-    height: 650px;
+    // width: 300px;
+    // height: 650px;
     background-color: whitesmoke;
     border: none;
 }
 .imagenes{
-    width: $ancho/2 ;
+    // width: $ancho/2 ;
     height: 570px;
-    margin-left: 25px;
+    // margin-left: 25px;
     border-radius: 15px;
 }
 
 
 .camisetaReal{
-height: 400px;
-border-radius: 18px;
-width: 230px;
+    height: 400px;
+    border-radius: 18px;
+    // width: 230px;
 }
 .camisetaNiupi{
 height: 300px;
 border-radius: 22px;
-width: 200px;
+// width: 200px;
 }
 .camisetaLaVilla{
     height: 200px;
     border-radius: 24px;
-    width: 200px;
+    // width: 200px;
 }
 .camisetaHuracan{
     height: 125px;
     border-radius: 26px;
-    width: 200px;
+//     width: 200px;
 }
+
 h3{
     color: #013A63;
     font-size: 1.25rem;
@@ -94,15 +95,15 @@ h3{
     text-align: center;
 }
 .mediosDePago{
-    border-style: solid ;
+    // border-style: solid ;
     border-radius: 25px;
     height: 225px;
     padding: 0px;
 }
-.pagar{
+.pagar{ 
     text-align: center;
     font-size: 25px;
 }
 .botonComprar{
-    
+
 }
