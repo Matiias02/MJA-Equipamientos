@@ -395,6 +395,8 @@ form {
   .section {
     background-color: #A9D6E5;
     height: 3500px; }
+  .contacto__parrafo {
+    padding-bottom: 100px; }
   header {
     height: 152px;
     position: sticky;
