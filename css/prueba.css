@@ -396,12 +396,17 @@ form {
     background-color: #A9D6E5;
     height: 3500px; }
   .contacto__parrafo {
-    padding-bottom: 100px; }
+    padding-left: 50px; }
   header {
     height: 152px;
     position: sticky;
     z-index: 1;
-    top: 0; } }
+    top: 0; }
+  footer {
+    background-color: #013A63;
+    margin-bottom: 0px;
+    padding: 7px;
+    margin-top: 500px; } }
 
 @media screen and (max-width: 425px) {
   .nav {
@@ -424,7 +429,8 @@ form {
   .sectionInfo {
     height: 1400px; }
   .contacto__parrafo {
-    padding-left: 20px; }
+    padding-left: 50px;
+    margin: 50px; }
   .section {
     background-color: #A9D6E5; }
   header {
@@ -438,7 +444,12 @@ form {
       font-size: 16px;
       display: flex;
       justify-content: space-around;
-      padding-left: 35px; } }
+      padding-left: 35px; }
+  footer {
+    background-color: #013A63;
+    margin-bottom: 0px;
+    padding: 7px;
+    margin-top: 86px; } }
 
 * {
   margin: 0;
