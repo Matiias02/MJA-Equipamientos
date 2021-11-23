@@ -3,7 +3,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 /*ENCABEZADO*/
 header {
-  background-color: #013A63;
   height: 152px !important;
   position: fixed;
   z-index: 1;
@@ -14,6 +13,10 @@ header {
     font-family: 'Open Sans', sans-serif;
     display: flex;
     justify-content: space-around; }
+
+.fondo-header {
+  background-image: url("../multimedia/futbol.jpeg");
+  height: 100px; }
 
 .titulo__h1 {
   color: white !important;
@@ -227,7 +230,7 @@ section {
   margin: 0;
   text-align: center;
   color: #013A63;
-  font-family: 'Marvel', sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 26px; }
 
 .encabezado {
@@ -371,8 +374,7 @@ form {
   header {
     height: 152px;
     position: sticky;
-    top: 0px;
-    padding-left: 15px; }
+    top: 0px; }
     header p {
       color: #FB8500;
       font-family: 'Open Sans', sans-serif;
@@ -466,43 +468,25 @@ section {
 
 h2 {
   color: #013A63;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 33px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
   padding: 30px;
   text-align: center; }
 
 /*SECCION PRINCIPAL DE TODAS LAS PAGINAS*/
-.colorFondo {
-  background-color: whitesmoke;
-  height: 100px; }
-
 .cards {
   border: 0;
   z-index: 2; }
 
-.card {
+.cardd {
+  padding-left: 25px;
+  padding-right: 25px;
   background-color: whitesmoke;
   border: none; }
 
 .imagenes {
   height: 570px;
   border-radius: 15px; }
-
-.camisetaReal {
-  height: 400px;
-  border-radius: 18px; }
-
-.camisetaNiupi {
-  height: 300px;
-  border-radius: 22px; }
-
-.camisetaLaVilla {
-  height: 200px;
-  border-radius: 24px; }
-
-.camisetaHuracan {
-  height: 125px;
-  border-radius: 26px; }
 
 h3 {
   color: #013A63;
@@ -521,3 +505,6 @@ h3 {
 .pagar {
   text-align: center;
   font-size: 25px; }
+
+.botonComprar:hover {
+  transform: scale(1.2); }
