@@ -32,7 +32,6 @@
             padding-left: 35px;
         }
     }
-    
 }
 
 @media screen and (max-width:320px) {
@@ -49,8 +48,8 @@
         border-radius: 15px;
     }
     .section{
-    background-color: #A9D6E5;
-    height: 3500px;
+        background-color: #A9D6E5;
+        height: 3500px;
     }
     .contacto__parrafo{
         padding-left: 50px;
@@ -67,6 +66,13 @@
         margin-bottom:0px;
         padding:7px;
         margin-top:500px;
+    }
+    .informacion__titulo{
+        padding-top: 25px;
+    }
+    .tablaTalles{
+        width: 310px;
+        font-size: 20px;
     }
 }
 
@@ -92,11 +98,12 @@
         align-items: stretch;
     }
     .sectionInfo{
-        height: 1400px;
+        height: 1700px;
     }
     .contacto__parrafo{
         padding-left:50px ;
         margin: 50px;
+        padding-bottom: 150px;
     }
     .section{
     background-color: #A9D6E5;
@@ -120,5 +127,15 @@
         margin-bottom:0px;
         padding:7px;
         margin-top: 86px;
+    }
+    .h2Info{
+        text-align: center;
+        font-family:Arial, Helvetica, sans-serif ;
+        font-size: 40px;
+        margin-bottom: 180px;
+    }
+    .tablaTalles{
+        width: 330px;
+        font-size: 20px;
     }
 }

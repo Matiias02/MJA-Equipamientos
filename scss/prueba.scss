@@ -25,6 +25,7 @@ a{
 section{
     background-color: whitesmoke;
     padding-top: 60px;
+    max-width: 100%;
 }
 h2{
     color: #013A63;
@@ -36,10 +37,7 @@ h2{
 
 /*SECCION PRINCIPAL DE TODAS LAS PAGINAS*/
 
-// .colorFondo{
-//     background-color:whitesmoke ;
-//     height: 100px;
-// }
+
 
 .cards{
     border: 0;
@@ -47,8 +45,6 @@ h2{
 }
 
 .cardd{
-    // width: 450px;
-    // height: 650px;
     padding-left: 25px;
     padding-right: 25px;
     background-color: whitesmoke;
@@ -60,7 +56,9 @@ h2{
     border-radius: 15px;
 }
 
-
+body{
+    background-color: whitesmoke;
+}
 
 h3{
     color: #013A63;
@@ -81,9 +79,11 @@ h3{
     text-align: center;
     font-size: 25px;
 }
-.botonComprar{
 
-}
 .botonComprar:hover{
     transform: scale(1.2);
+}
+
+.row{
+    --bs-gutter-x: 0;
 }
