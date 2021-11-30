@@ -1,7 +1,6 @@
 /*ENCABEZADO*/
 
 header{
-    // background-color: #013A63;
     height:152px !important;
     position: fixed;
     z-index: 1;
@@ -52,18 +51,17 @@ header{
 }
 .submenu__item{
     color: #89C2D9;
-}
-.submenu__item:hover{
-    transition: 1s;
+    &:hover{
+        transition: 1s;
     background-color: rgb(44, 44,44) !important;
     color: white;
     border-radius: 5px;
+    }
 }
+
 .container{
     padding-left: 18px;
 }
-
-
 
 .menu{
     display:grid;

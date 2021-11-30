@@ -62,30 +62,34 @@
 .instagram2{
     color: rgb(44, 44,44);
     align-items: center;
+    &:hover{
+        color: #468FAF;
+    }
 }
-.instagram2:hover{
-    color: #468FAF;
-}
+
 .facebook2{
     color: rgb(44, 44,44);
     align-items: center;
+    &:hover{
+        color: #468FAF;
+    }
 }
-.facebook2:hover{
-    color: #468FAF;
-}
+
 .whatsapp2{
     color: rgb(44, 44,44);
     align-items: center;
+    &:hover{
+        color: #468FAF;
+    }
 }
-.whatsapp2:hover{
-    color: #468FAF;
-}
+
 .gmail2{
     color: rgb(44, 44,44);
+    &:hover{
+        color: #468FAF;
+    }
 }
-.gmail2:hover{
-    color: #468FAF;
-}
+
 
 .contacto__parrafo{
     padding-left: 350px;

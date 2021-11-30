@@ -50,12 +50,11 @@ header {
 
 .submenu__item {
   color: #89C2D9; }
-
-.submenu__item:hover {
-  transition: 1s;
-  background-color: #2c2c2c !important;
-  color: white;
-  border-radius: 5px; }
+  .submenu__item:hover {
+    transition: 1s;
+    background-color: #2c2c2c !important;
+    color: white;
+    border-radius: 5px; }
 
 .container {
   padding-left: 18px; }
@@ -85,40 +84,36 @@ footer {
   text-decoration: none;
   padding-left: 16px;
   padding-right: 16px; }
+  .instagram:hover {
+    text-decoration: none;
+    color: white; }
 
 .whatsapp {
   color: #89C2D9;
   text-decoration: none;
   padding-left: 16px;
   padding-right: 16px; }
+  .whatsapp:hover {
+    text-decoration: none;
+    color: white; }
 
 .facebook {
   color: #89C2D9;
   text-decoration: none;
   padding-left: 16px;
   padding-right: 16px; }
+  .facebook:hover {
+    text-decoration: none;
+    color: white; }
 
 .gmail {
   color: #89C2D9;
   text-decoration: none;
   padding-left: 16px;
   padding-right: 16px; }
-
-.instagram:hover {
-  text-decoration: none;
-  color: white; }
-
-.whatsapp:hover {
-  text-decoration: none;
-  color: white; }
-
-.facebook:hover {
-  text-decoration: none;
-  color: white; }
-
-.gmail:hover {
-  text-decoration: none;
-  color: white; }
+  .gmail:hover {
+    text-decoration: none;
+    color: white; }
 
 .derechosR {
   color: white;
@@ -188,29 +183,25 @@ footer {
 .instagram2 {
   color: #2c2c2c;
   align-items: center; }
-
-.instagram2:hover {
-  color: #468FAF; }
+  .instagram2:hover {
+    color: #468FAF; }
 
 .facebook2 {
   color: #2c2c2c;
   align-items: center; }
-
-.facebook2:hover {
-  color: #468FAF; }
+  .facebook2:hover {
+    color: #468FAF; }
 
 .whatsapp2 {
   color: #2c2c2c;
   align-items: center; }
-
-.whatsapp2:hover {
-  color: #468FAF; }
+  .whatsapp2:hover {
+    color: #468FAF; }
 
 .gmail2 {
   color: #2c2c2c; }
-
-.gmail2:hover {
-  color: #468FAF; }
+  .gmail2:hover {
+    color: #468FAF; }
 
 .contacto__parrafo {
   padding-left: 350px; }
@@ -528,8 +519,13 @@ h3 {
   text-align: center;
   font-size: 25px; }
 
-.botonComprar:hover {
-  transform: scale(1.2); }
+.botonComprar {
+  background-color: #FB8500;
+  border: 0; }
+  .botonComprar:hover {
+    transform: scale(1.2);
+    background-color: #FB8500;
+    border: 0; }
 
 .row {
   --bs-gutter-x: 0; }

@@ -21,42 +21,42 @@ footer{
     text-decoration: none;
     padding-left: 16px;
     padding-right: 16px;
+    &:hover{
+        text-decoration: none;
+        color: white;
+    }
 }
 .whatsapp{
     color:#89C2D9 ;
     text-decoration: none;
     padding-left: 16px;
     padding-right: 16px;
+    &:hover{
+        text-decoration: none;
+        color: white;
+    }
 }
 .facebook{
     color:#89C2D9 ;
     text-decoration: none;
     padding-left: 16px;
     padding-right: 16px;
+    &:hover{
+        text-decoration: none;
+        color: white;
+    }
 }
 .gmail{
     color: #89C2D9;
     text-decoration: none;
     padding-left: 16px;
     padding-right: 16px;
+    &:hover{
+        text-decoration: none;
+        color: white;
+    }
 }
-.instagram:hover{
-    text-decoration: none;
-    color: white;
 
-}
-.whatsapp:hover{
-    text-decoration: none;
-    color: white;
-}
-.facebook:hover{
-    text-decoration: none;
-    color: white;
-}
-.gmail:hover{
-    text-decoration: none;
-    color: white;
-}
 .derechosR{
     color: white;
     text-align: center;

@@ -18,8 +18,6 @@ a{
     text-decoration: none;
 }
 
-
-
 /*SECCIÓN PRINCIPAL*/
 
 section{
@@ -36,8 +34,6 @@ h2{
 }
 
 /*SECCION PRINCIPAL DE TODAS LAS PAGINAS*/
-
-
 
 .cards{
     border: 0;
@@ -80,8 +76,13 @@ h3{
     font-size: 25px;
 }
 
-.botonComprar:hover{
+.botonComprar{
+    background-color:#FB8500 ;
+    border: 0;
+    &:hover{
     transform: scale(1.2);
+    background-color:#FB8500 ;
+    border: 0;}
 }
 
 .row{
