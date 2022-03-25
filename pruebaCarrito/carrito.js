@@ -5,6 +5,9 @@ const templateCard = document.getElementById("template-card").content
 const fragment = document.createDocumentFragment()
 const templateFooter = document.getElementById("template-footer").content
 const templateCarrito = document.getElementById("template-carrito").content
+const boton = document.getElementById("boton")
+
+
 
 let carrito = {}
 document.addEventListener('DOMContentLoaded', () => {
@@ -16,6 +19,15 @@ document.addEventListener('DOMContentLoaded', () => {
 })
 cards.addEventListener('click', e => {
     addCarrito(e)
+    
+        Swal.fire({
+            position: 'center',
+            icon: 'success',
+            title: 'Agregaste este producto al carrito',
+            showConfirmButton: false,
+            timer: 2000
+        })
+    
 })
 items.addEventListener('click', e => {
     btnAccion(e)
@@ -24,6 +36,7 @@ items.addEventListener('click', e => {
 const fetchData = async () => {
     try {
         const res = await fetch('api2.json')
+        
         const data = await res.json()
         // console.log(data);
         pintarCards(data)
@@ -38,7 +51,7 @@ const pintarCards = data => {
         templateCard.querySelector("p").textContent = producto.precio
         templateCard.querySelector("img").setAttribute("src", producto.thumbnailUrl)
         templateCard.querySelector(".btn-dark").dataset.id = producto.id
-
+        
         const clone = templateCard.cloneNode(true)
         fragment.appendChild(clone)
     })
@@ -133,3 +146,15 @@ const btnAccion = e => {
     } 
     e.stopPropagation()
 }
+
+boton.addEventListener("click", () => {
+            Swal.fire({
+                position: 'top-end',
+                icon: 'success',
+                title: 'Your work has been saved',
+                showConfirmButton: false,
+                timer: 1500
+            })
+        })
+
+
