@@ -37,31 +37,31 @@
     },
     {
         "precio": 300,
-        "id": 6,
+        "id": 7,
         "title": "Camiseta Chacaritas",
         "thumbnailUrl": "../proyecto/multimedia/fondosrojos/diseño4.jpeg"
     },
     {
         "precio": 300,
-        "id": 6,
+        "id": 8,
         "title": "Camiseta BVC La Belén",
         "thumbnailUrl": "../proyecto/multimedia/fondosverde/bvcLaBelen.jpeg"
     },
     {
         "precio": 300,
-        "id": 6,
+        "id": 9,
         "title": "Camiseta Huracán",
         "thumbnailUrl": "../proyecto/multimedia/fondosverde/huracan.jpeg"
     },
     {
         "precio": 300,
-        "id": 6,
+        "id": 10,
         "title": "Camiseta La Coruña",
         "thumbnailUrl": "../proyecto/multimedia/fondosverde/diseño2.jpeg"
     },
     {
         "precio": 300,
-        "id": 6,
+        "id": 11,
         "title": "Camiseta Tocale Ficha",
         "thumbnailUrl": "../proyecto/multimedia/fondosverde/tocaleficha.jpeg"
     }
